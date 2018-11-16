@@ -3,12 +3,18 @@
   background-color:  #d9d9d9;
 }
 
+
 .content{
   display: flex;
   flex-direction: column;
-  padding: 100px 100px 50px;
+  padding: 100px 10px 100px 10px;
 
 }
+
+p{
+  color: #4d4d4d;
+}
+
 
 .content h3{
   color: 	 #b30000;

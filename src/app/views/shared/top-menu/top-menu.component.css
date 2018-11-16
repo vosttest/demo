@@ -1,13 +1,25 @@
 .navbar-nav {
-    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 1.5rem 0 .95rem;
+}
+
+.space {
+    flex-grow: 1;
+    margin-right: 0 !important;
 }
 
 .navbar-nav>li>a {
     font-size: large;
 }
 
-.navbar-nav>li {
-    margin: 1rem;
+.navbar-nav>li:not(:last-child),
+.navbar-nav>li:not(:first-child)  {
+    margin-right: 1rem;
 }
 
 a {
@@ -15,10 +27,12 @@ a {
 }
 
 .cs-logo {
-    width: 310px !important;
-    height: 62px !important;
-    margin: -7px 0 0 5px;
-    margin-right: 20px;
+    width: 200px !important;
+    height: 70px !important;
+    /* margin: -7px 0 0 5px; */
+    background: url(../../../../assets/images/cs-logo.png) no-repeat;
+    background-size: 90px auto;
+    background-position: center;
 }
 
 .navbar-toggle {
@@ -26,9 +40,88 @@ a {
     padding: 10px 5px 10px 7px;
 }
 
-@media only screen and (max-width: 500px) {
+.navbar-more {
+    list-style: none;
+    text-align: center;
+    margin-top: 6rem;
+    padding: 0;
+}
+
+.navbar-more>li {
+    font-size: x-large;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.navbar-more>li a {
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar-more>li a:hover::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -10px;
+    width: 80px;
+    border-bottom: 2px solid #6a006e;
+}
+
+.modal {
+    background: #898989 !important;
+    padding-right: 0 !important;
+}
+
+.modal-dialog {
+    max-width: 100%;
+    margin: 0;
+    height: 100% !important;
+}
+
+.modal-content {
+    background: transparent; 
+    border-radius: 0 !important;
+    height: 100% !important;
+    border: 0;
+    /* align-items: center; */
+    color: #ffffff;
+}
+
+.modal-header1 {
+    height: 70px;
+    display: flex;
+    padding: 0 2rem 0 0;
+}
+
+.more-close {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.more-close i {
+    color: #ffffff;
+    font-size: x-large;
+}
+
+.linkedin {
+    margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
     .cs-logo {
         margin-right: 0px;
+    }
+    .desktop {
+        display: none;
+    }
+    .mr-right0 {
+        margin-right: 0 !important;
+    }
+    .mr-left {
+        margin-left: 0 !important;
     }
 } 
 
@@ -52,10 +145,10 @@ a {
 }
 
 .mr-left {
-    margin-left: 10rem !important;
+    margin-left: 4rem;
 }
 
 .mr-right0 {
-    margin-right: 0px !important;
+    margin-right: 5rem;
 }
 

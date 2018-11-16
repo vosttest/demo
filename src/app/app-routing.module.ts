@@ -7,12 +7,12 @@ import { OurExpertiseComponent } from './views/our-expertise/our-expertise.compo
 import { DashboardComponent } from './views/dashboard/dashboard.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full'},
+  { path: '', redirectTo: '/index', pathMatch: 'full'},
   { path: 'our-edge', component: OurEdgeComponent},
   { path: 'our-story', component: OurStoryComponent},
   { path: 'our-approach', component: OurApproachComponent},
   { path: 'our-expertise', component: OurExpertiseComponent},
-  { path: 'dashboard', component: DashboardComponent}
+  { path: 'index', component: DashboardComponent}
 ]
 
 @NgModule({
