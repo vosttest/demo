@@ -19,20 +19,16 @@
 
 .navbar-nav>li:not(:last-child),
 .navbar-nav>li:not(:first-child)  {
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 a {
     color: white;
 }
 
-.cs-logo {
-    width: 200px !important;
-    height: 70px !important;
-    /* margin: -7px 0 0 5px; */
-    background: url(../../../../assets/images/cs-logo.png) no-repeat;
-    background-size: 90px auto;
-    background-position: center;
+img {
+    width: 60%;
+    margin-left: 65%;
 }
 
 .navbar-toggle {
@@ -53,10 +49,11 @@ a {
     font-weight: 600;
 }
 
-.navbar-more>li a {
+li a {
     position: relative;
     text-decoration: none;
-    transition: all 2s ease-in-out; 
+    transition: all 2s ease-in-out;
+    color: white;
 }
 
 .navbar-more>li a:hover {
@@ -85,7 +82,7 @@ a {
 }
 
 .modal-content {
-    background: transparent; 
+    background: transparent;
     border-radius: 0 !important;
     height: 100% !important;
     border: 0;
@@ -128,7 +125,7 @@ a {
     .mr-left {
         margin-left: 0 !important;
     }
-} 
+}
 
 .bg-img {
     /* background-image: url("../../../../assets/images/bg.jpg"); */
@@ -146,11 +143,11 @@ a {
 .fas {
     color: white;
     margin-left: 10px;
-    cursor: pointer;
 }
 
 .mr-left {
     margin-left: 4rem;
+    cursor: pointer;
 }
 
 .mr-right0 {
@@ -161,3 +158,6 @@ ul {
     list-style-type: none;
 }
 
+.mr-top {
+    margin-top: 6%; 
+}

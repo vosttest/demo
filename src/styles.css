@@ -10,7 +10,6 @@ h3 {
     font-size: 2.75rem;
 }
 
-body {
-
-    /* overflow: scroll; */
+body html {
+    overflow-x: scroll;
 }

@@ -1,15 +1,23 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
 
 @Component({
-  selector: 'app-slides-show',
-  templateUrl: './slides-show.component.html',
-  styleUrls: ['./slides-show.component.css']
+    selector: 'app-slides-show',
+    templateUrl: './slides-show.component.html',
+    styleUrls: ['./slides-show.component.css']
 })
 export class SlidesShowComponent implements OnInit {
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
 
+    }
+
+    onScrollDown(): void {
+        $('#expertise-content')[0].scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    }
 }

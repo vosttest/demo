@@ -14,6 +14,11 @@
     background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%)
 }
 
+.glyphicon-chevron-down {
+    font-size: x-large;
+    cursor: pointer;
+}
+
 .bg-img {
     background-image: url("../../../assets/images/bg.jpg");
 }
@@ -22,4 +27,9 @@
     .slide-image {
         height: 430px !important;
     }
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
