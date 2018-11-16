@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { OurExpertiseComponent } from './views/our-expertise/our-expertise.component';
 import { FitComponent } from './views/shared/fit/fit.component';
 import { DashboardComponent } from './views/dashboard/dashboard.component';
+import { SlidesShowComponent } from './views/slides-show/slides-show.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { DashboardComponent } from './views/dashboard/dashboard.component';
         OurApproachComponent,
         OurExpertiseComponent,
         FitComponent,
-        DashboardComponent
+        DashboardComponent,
+        SlidesShowComponent
     ],
     imports: [
         BrowserModule,

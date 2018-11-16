@@ -1,4 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+a {
+    font-size: medium;
+}
+
+p {
+    font-size: medium;
+}
+
+h3 {
+    font-size: 2.75rem;
+}
+
 body {
-    overflow: scroll;
+
+    /* overflow: scroll; */
 }

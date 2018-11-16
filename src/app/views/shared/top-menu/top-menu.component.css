@@ -56,6 +56,11 @@ a {
 .navbar-more>li a {
     position: relative;
     text-decoration: none;
+    transition: all 2s ease-in-out; 
+}
+
+.navbar-more>li a:hover {
+    transform: scale(2);
 }
 
 .navbar-more>li a:hover::after {
@@ -150,5 +155,9 @@ a {
 
 .mr-right0 {
     margin-right: 5rem;
+}
+
+ul {
+    list-style-type: none;
 }
 

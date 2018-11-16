@@ -11,6 +11,7 @@ p {
     margin: auto;
     color: white;
     text-align: right;
+    margin-top: 2%;
 }
 
 .scale {
@@ -26,7 +27,7 @@ p {
 
 hr {
     border-top: 1px solid white;
-    width: 9%;
+    width: 22%;
     margin-left: 0px;
 }
 
@@ -37,7 +38,7 @@ hr {
 
 .format-row1 {
     margin: auto;
-    padding: 2% 9% 0 0;
+    padding: 3% 9% 0 0;
 }
 
 i {
@@ -49,5 +50,9 @@ i {
 a {
     text-decoration: none;
     color: white;
+}
+
+.pad-right0 {
+    padding-right: 0px;
 }
 

@@ -1,0 +1,25 @@
+.slide-image {
+    width: 100vh;
+    height: 100vh !important;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: auto;
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%)
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%)
+}
+
+.bg-img {
+    background-image: url("../../../assets/images/bg.jpg");
+}
+
+@media only screen and (max-width: 768px) {
+    .slide-image {
+        height: 430px !important;
+    }
+}
