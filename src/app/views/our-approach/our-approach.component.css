@@ -1,0 +1,81 @@
+#our-approach {
+    padding-top: 56px;
+    font-weight: 300;
+}
+
+.text-wrap {
+    display: block;
+}
+
+.header {
+    padding: 100px 0;
+    background: #333 url(../../../assets/images/bg-demo.png) center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.approach-title {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 400;
+    color: #a63347;
+}
+
+.approach-description {
+    margin-top: 40px;
+    line-height: 33px;
+}
+
+.approach-description p {
+    margin-top: 35px;
+}
+
+.approach-ls {
+    padding: 70px 0;
+}
+
+.approach-ls .title {
+    display: block;
+    position: relative;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    color: #a63347;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.approach-ls .title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    width: 100px;
+    border-bottom: 2px solid rgba(166, 51, 71, 1);
+}
+
+.approach-ls .description {
+    color: #555;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.item-icon {
+    align-self: center;
+}
+
+.icon-image {
+    width: 80px;
+    height: 80px;;
+    background: url(../../../assets/images/icon-demo.jpg) no-repeat center;
+    background-size: 80px 80px;
+}

@@ -1,0 +1,58 @@
+#our-edge {
+    font-weight: 100;
+    color: #ffffff;
+    padding-top: 80px;
+    background: #750863 url(../../../assets/images/bg.jpg) no-repeat fixed;
+}
+
+.edge-title {
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.text-wrap {
+    display: block;
+}
+
+.edge-description {
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+#edge-ls {
+    padding: 40px 0 100px;
+}
+
+#edge-ls .title {
+    display: block;
+    position: relative;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+#edge-ls .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 190px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.22);
+}
+
+#edge-ls .detail  {
+    font-size: 17px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}

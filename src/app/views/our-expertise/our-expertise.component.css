@@ -1,0 +1,51 @@
+#our-expertise {
+    font-weight: 100;
+    color: #ffffff;
+    padding-top: 80px;
+    background: url(../../../assets/images/bg.jpg);
+}
+
+.expertise-title {
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.text-wrap {
+    display: block;
+}
+
+#expertise-ls {
+    padding: 20px 0 80px 45px;
+}
+
+#expertise-ls .title {
+    display: block;
+    position: relative;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 45px;
+    cursor: pointer;
+    line-height: 33px;
+}
+
+#expertise-ls .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    width: 190px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.22);
+}
+
+#expertise-ls .detail  {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
