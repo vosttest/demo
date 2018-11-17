@@ -1,7 +1,7 @@
 
 #dashboard{
   background-color:  #d9d9d9;
-
+  font-family: Gotham-Light;
 }
 
 
@@ -16,7 +16,6 @@ p{
   color: #8c8c8c;
 }
 
-
 .content h3{
   color: 	 #b12b46;
   position: relative;
@@ -27,7 +26,7 @@ p{
   position: absolute;
   left: 0;
   bottom: -20px;
-  width: 200px;
+  width: 230px;
   height: 2px;
   border-bottom: 1px solid 	 #b12b46;
 }
@@ -61,4 +60,9 @@ p{
   height: 400px;
   background: url(../../../assets/images/re-imagine.png) center;
   background-size: cover;
+}
+
+@font-face{
+  font-family: Gotham-Light;
+  src:url("../../../assets/fonts/Gotham-Light.otf");
 }

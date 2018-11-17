@@ -15,7 +15,7 @@ export class OurEdgeComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    this.showUnderline();
+    // this.showUnderline();
   }
 
   private showUnderline() {

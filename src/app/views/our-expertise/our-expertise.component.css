@@ -1,18 +1,7 @@
 #our-expertise {
-    font-weight: 100;
     color: #ffffff;
-    padding-top: 80px;
-    background: url(../../../assets/images/bg-expertise.png);
-}
-
-.expertise-title {
-    font-size: 55px;
-    text-transform: uppercase;
-    margin-top: 80px;
-}
-
-.text-wrap {
-    display: block;
+    background: #660169 url(../../../assets/images/bg-expertise.png) no-repeat fixed;
+    background-size: 96%;
 }
 
 #expertise-ls {
@@ -28,7 +17,6 @@
     padding: 0;
     color: #ffffff;
     font-size: 30px;
-    font-weight: 100;
     text-transform: uppercase;
     text-align: left;
     margin-bottom: 45px;

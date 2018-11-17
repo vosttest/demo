@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Gotham-Light;
+    src:url("./assets/fonts/Gotham-Light.otf");
+}
+
 a {
     font-size: medium;
 }
@@ -10,6 +15,25 @@ h3 {
     font-size: 2.75rem;
 }
 
-body html {
-    overflow-x: scroll;
+body, html {
+    font-family: Gotham-Light !important;
+    padding: 0 !important;
+}
+
+body {
+    overflow-y: auto;
+}
+
+.text-wrap {
+    display: block;
+}
+
+.title-1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.section-1 {
+    padding-top: 70px;
 }
