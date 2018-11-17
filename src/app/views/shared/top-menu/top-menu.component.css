@@ -80,8 +80,9 @@ a {
 .navbar-more {
     list-style: none;
     text-align: center;
-    margin-top: 6rem;
     padding: 0;
+    max-width: 500px;
+    margin: 6rem auto;
 }
 
 .navbar-more>li {

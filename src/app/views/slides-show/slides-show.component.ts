@@ -10,9 +10,7 @@ export class SlidesShowComponent implements OnInit {
 
     constructor() { }
 
-    ngOnInit() {
-
-    }
+    ngOnInit() {}
 
     onScrollDown(): void {
         $('#expertise-content')[0].scrollIntoView({
