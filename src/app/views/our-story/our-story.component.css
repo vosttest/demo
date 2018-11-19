@@ -20,7 +20,7 @@
 .content h3{
     color: 	 #b30000;
     position: relative;
-    margin-bottom:  80px;
+    margin-bottom:  50px;
     font-family: Gotham-Light;
 
 }
@@ -33,6 +33,12 @@
     width: 170px;
     height: 2px;
     border-bottom: 1px solid 	 #b30000;
+}
+
+h5 {
+    color:  #720764;
+    padding-bottom: 20px;
+    font-size: x-large;
 }
 
 @font-face{

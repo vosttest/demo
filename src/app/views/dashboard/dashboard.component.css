@@ -2,7 +2,7 @@
     background-color: #d7d7d7 ;
     background-image: url("../../../assets/shapes/crimsonworks_icon_white-06.png");
     background-repeat: no-repeat;
-    background-position: right 10% bottom -190px;
+    background-position: right 10% bottom -220px;
     background-blend-mode: soft-light;
 }
 
@@ -63,6 +63,7 @@ p{
   color:  #720764;
   text-decoration: none;
   align-self: center;
+  margin-top:45px;
 }
 
 #bg-border{
