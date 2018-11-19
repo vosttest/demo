@@ -1,23 +1,19 @@
 .content1 {
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),
-      url("../../../assets/shapes/crimsonworks_icon_white-06.png") no-repeat;
-    background-color: #d7d7d7;
-    background-position-x: 88%;
-    background-position-y: 250%;
+    background-color: #d7d7d7 ;
+    background-image: url("../../../assets/shapes/crimsonworks_icon_white-06.png");
+    background-repeat: no-repeat;
+    background-position: right 10% bottom -190px;
     background-blend-mode: soft-light;
-    background-size: 350px 500px;
-
 }
 
 .content2{
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),
-    url("../../../assets/shapes/dashboard-shape-2.png");
+  background: url("../../../assets/shapes/dashboard-shape-2.png");
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position-x: 5%;
   background-position-y: -5em;
   background-blend-mode: darken;
-  background-size: 350px 500px;
+  background-size: 300px;
 }
 .content1 p, .content2 p{
   width: 100%;
@@ -26,8 +22,6 @@
 }
 
 .content1, .content2{
-  display: flex;
-  flex-direction: column;
   padding: 90px 50px 90px 50px;
 
 }
@@ -58,14 +52,17 @@ p{
   font-size: x-large;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .bt-more {
   padding: 3px 35px;
-  border: 1px solid #8c8c8c;
+  border: 1px solid #720764;
   color:  #720764;
   text-decoration: none;
   align-self: center;
-  margin-top:  50px;
-
 }
 
 #bg-border{
