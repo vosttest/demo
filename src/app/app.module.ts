@@ -12,6 +12,7 @@ import { OurExpertiseComponent } from './views/our-expertise/our-expertise.compo
 import { FitComponent } from './views/shared/fit/fit.component';
 import { DashboardComponent } from './views/dashboard/dashboard.component';
 import { SlidesShowComponent } from './views/slides-show/slides-show.component';
+import { ContactComponent } from './views/contact/contact.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +25,8 @@ import { SlidesShowComponent } from './views/slides-show/slides-show.component';
         OurExpertiseComponent,
         FitComponent,
         DashboardComponent,
-        SlidesShowComponent
+        SlidesShowComponent,
+        ContactComponent
     ],
     imports: [
         BrowserModule,

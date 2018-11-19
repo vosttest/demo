@@ -6,6 +6,7 @@ import { OurApproachComponent } from './views/our-approach/our-approach.componen
 import { OurExpertiseComponent } from './views/our-expertise/our-expertise.component';
 import { DashboardComponent } from './views/dashboard/dashboard.component';
 import { SlidesShowComponent } from './views/slides-show/slides-show.component';
+import { ContactComponent } from './views/contact/contact.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/index', pathMatch: 'full'},
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent},
   { path: 'slides-show', component: SlidesShowComponent},
   { path: 'dashboard', component: DashboardComponent},
-  { path: 'index', component: DashboardComponent}
+  { path: 'index', component: DashboardComponent},
+  { path: 'contact', component: ContactComponent}
 ]
 
 @NgModule({
