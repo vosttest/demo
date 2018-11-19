@@ -1,14 +1,34 @@
+.content1 {
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),
+      url("../../../assets/shapes/crimsonworks_icon_white-06.png") no-repeat;
+    background-color: #d7d7d7;
+    background-position-x: 88%;
+    background-position-y: 250%;
+    background-blend-mode: soft-light;
+    background-size: 350px 500px;
 
-#dashboard{
-  background-color:  #d9d9d9;
-  font-family: Gotham-Light;
 }
 
+.content2{
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),
+    url("../../../assets/shapes/dashboard-shape-2.png");
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position-x: 5%;
+  background-position-y: -5em;
+  background-blend-mode: darken;
+  background-size: 350px 500px;
+}
+.content1 p, .content2 p{
+  width: 100%;
+  text-align: justify;
+  text-justify: inter-character;
+}
 
-.content{
+.content1, .content2{
   display: flex;
   flex-direction: column;
-  padding: 100px 10px 100px 10px;
+  padding: 90px 50px 90px 50px;
 
 }
 
@@ -16,12 +36,12 @@ p{
   color: #8c8c8c;
 }
 
-.content h3{
+.content1 h3, .content2 h3{
   color: 	 #b12b46;
   position: relative;
 }
 
-.content h3::after{
+.content1 h3::after, .content2 h3::after{
   content: '';
   position: absolute;
   left: 0;
@@ -31,15 +51,16 @@ p{
   border-bottom: 1px solid 	 #b12b46;
 }
 
-.content h5{
+.content1 h5, .content2 h5{
   color:  #720764;
   padding-top: 45px;
   padding-bottom: 20px;
+  font-size: x-large;
 }
 
 .bt-more {
   padding: 3px 35px;
-  border: 1px solid  #737373;
+  border: 1px solid #8c8c8c;
   color:  #720764;
   text-decoration: none;
   align-self: center;
@@ -60,9 +81,24 @@ p{
   height: 400px;
   background: url(../../../assets/images/re-imagine.png) center;
   background-size: cover;
+  z-index: 1;
 }
 
-@font-face{
-  font-family: Gotham-Light;
-  src:url("../../../assets/fonts/Gotham-Light.otf");
+.shape{
+  /* shape-outside: url(../../../assets/shapes/crimsonworks_icon_white-06.png); */
+  width: 200px;
+  height:450px;
+  /* overflow: auto; */
+  position: fixed;
+  bottom: -10%;
+  right: 100px;
+  z-index: 0;
+  float: right;
+  opacity: 0.3;
 }
+div .content1{
+  z-index: -1;
+}
+
+
+
