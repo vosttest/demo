@@ -82,8 +82,8 @@ textarea.form-control {
     border: 1px solid #e5e5e8;
     box-shadow: 1px 2px 20px 0 rgba(0, 0, 0, 0.25);
     position: absolute;
-    top: 3%;
-    left: 27%;
+    top: 1%;
+    left: 25%;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -92,25 +92,12 @@ textarea.form-control {
     margin-top: 5%;
 }
 
-@media only screen and (max-width: 2000px) {
-    iframe {
-        width: 760px;
-        height: 250px;
-    }
-}
-
-@media only screen and (max-width: 1500px) {
-    iframe {
-        width: 620px;
-        height: 250px;
-    }
+iframe {
+    width: 100%;
+    height: 250px;
 }
 
 @media only screen and (max-width: 1024px) {
-    iframe {
-        width: 430px;
-        height: 250px;
-    }
 
     .box-header {
         left: 17%;
@@ -130,11 +117,6 @@ textarea.form-control {
 }
 
 @media only screen and (max-width: 768px) {
-    iframe {
-        width: 305px;
-        height: 250px;
-    }
-
     .box-header {
         left: 14%;
         top: -7%;
@@ -165,7 +147,6 @@ textarea.form-control {
 
 @media only screen and (max-width: 450px) {
     iframe {
-        width: 325px;
         height: 200px;
     }
 
@@ -220,7 +201,6 @@ textarea.form-control {
 
 @media only screen and (max-width: 375px) {
     iframe {
-        width: 288px;
         height: 200px;
     }
 
@@ -271,7 +251,6 @@ textarea.form-control {
 
 @media only screen and (max-width: 320px) {
     iframe {
-        width: 230px;
         height: 200px;
     }
 
