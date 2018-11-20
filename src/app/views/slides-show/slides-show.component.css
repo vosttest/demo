@@ -114,19 +114,19 @@ h3 {
     animation-fill-mode: forwards;
 }
 
-.animated-2 {
+/* .animated-2 {
     position: absolute;
     animation-name: move2;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-}
+} */
 
-.animated-3 {
+/* .animated-3 {
     position: absolute;
     animation-name: move3;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-}
+} */
 
 /* .animated-4 {
     position: absolute;
@@ -140,15 +140,15 @@ h3 {
     to {opacity: 1;}
 }
 
-@keyframes move2 {
+/* @keyframes move2 {
     from {top: 0%;}
     to {top: 49.5%;}
-}
+} */
 
-@keyframes move3 {
+/* @keyframes move3 {
     from {top: 100%;}
     to {top: 46%;}
-}
+} */
 
 @keyframes move4 {
     from {right: 0%;}
