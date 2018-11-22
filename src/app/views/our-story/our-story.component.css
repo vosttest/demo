@@ -7,14 +7,13 @@
 }
 
 .content{
-    padding: 80px 10px 100px 10px;
+    padding: 80px 10px 38px 10px;
     background-color:  #d9d9d9;
 }
 
 .content p{
     text-align: justify;
     color: #8c8c8c;
-
 }
 
 /* .content h3{
@@ -41,6 +40,29 @@ h5 {
     font-size: x-large;
     font-weight:  bold;
 }
+
+#sf_logo{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding-bottom: 0;
+}
+
+@media only screen and (min-width: 750px) {
+  #sf_logo {
+    width: 25%;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+}
+
+.container{
+  padding-bottom: 20px;
+}
+
+
 
 
 
