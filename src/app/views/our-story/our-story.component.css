@@ -14,36 +14,33 @@
 .content p{
     text-align: justify;
     color: #8c8c8c;
-    font-family: Gotham-Light;
+
 }
 
-.content h3{
+/* .content h3{
     color: 	 #b30000;
     position: relative;
     margin-bottom:  50px;
-    font-family: Gotham-Light;
+    font-size: 25px;
 
-}
+} */
 
-.content h3::after{
+/* .content h3::after{
     content: '';
     position: absolute;
     left: 0;
-    bottom: -15px;
-    width: 170px;
+    bottom: -10px;
+    width: 160px;
     height: 2px;
     border-bottom: 1px solid 	 #b30000;
-}
+} */
 
 h5 {
     color:  #720764;
     padding-bottom: 20px;
     font-size: x-large;
+    font-weight:  bold;
 }
 
-@font-face{
-  font-family: Gotham-Light;
-  src:url("../../../assets/fonts/Gotham-Light.otf");
-}
 
 

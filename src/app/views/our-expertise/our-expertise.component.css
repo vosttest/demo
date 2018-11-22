@@ -5,7 +5,9 @@
 }
 
 #expertise-ls {
-    padding: 20px 0 80px 45px;
+    /* padding: 20px 0 80px 45px; */
+    padding: 20px 0 80px 0;
+    margin-top: 80px;
 }
 
 #expertise-ls .title {
@@ -17,7 +19,6 @@
     padding: 0;
     color: #ffffff;
     font-size: 22px;
-    text-transform: uppercase;
     text-align: left;
     margin-bottom: 45px;
     cursor: pointer;

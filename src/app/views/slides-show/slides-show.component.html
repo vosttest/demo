@@ -1,40 +1,81 @@
-<div id="myCarousel" class="carousel slide bg-img" data-ride="carousel">
+<div id="myCarousel" class="carousel slide bg-img" data-ride="carousel" data-interval="6000">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <div class="slide-image text-center">
-                <h1 class="format-text1 animated-1">RE-IMAGINE...</h1>
+            <div class="item-inner">
+                <h1 class="title-slide1">RE-IMAGINE...</h1>
             </div>
         </div>
-        <div class="item text-center">
-            <img src="../../../assets/images/img4.png" class="slide-image">
-            <h1 class="format-text2 animated-2">RE-IMAGINE...</h1>
+        <div class="item">
+            <div class="item-inner">
+                <img class="item-image" src="../../../assets/images/img4.png">
+                <div class="typo">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <h1 class="title-slide2 animated fadeInLeft">RE-IMAGINE...</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="description-slide2 animated fadeInRight">
+                                The way your business runs, supported flawlessly with digital solutions, achieving
+                                goals
+                                beyond
+                                expectation.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            <div class="format-text7 animated-3">
-                <h3>The way your business runs, supported flawlessly with digital solutions, achieving goals beyond
-                    expectation.</h3>
+        <div class="item">
+            <div class="item-inner">
+                <img class="item-image" src="../../../assets/images/img3.png">
+                <div class="typo">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <h1 class="title-slide2 animated fadeInUp">RE-IMAGINE...</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="description-slide2 animated fadeInDown">
+                                The way digitalisation offers the answer to business challenges with unique customised
+                                solutions.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="item text-center">
-            <img src="../../../assets/images/img3.png" class="slide-image">
-            <h1 class="format-text2 animated-4">RE-IMAGINE...</h1>
-            <div class="format-text3">
-                <h3>The way digitalisation offers the answer to business challenges with unique customised solutions.</h3>
+
+        <div class="item">
+            <div class="item-inner">
+                <img class="item-image" src="../../../assets/images/img2.png">
+                <div class="typo">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <h1 class="title-slide2 animated fadeInLeft">RE-IMAGINE...</h1>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="description-slide2 animated fadeInRight">
+                                The way synergy flows between you and your customers, made possible by a partner that
+                                truly
+                                understands your business, delivering the outcome you’ve dreamt of.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div class="item text-center">
-            <img src="../../../assets/images/img2.png" class="slide-image">
-            <h1 class="format-text2">RE-IMAGINE...</h1>
-            <div class="format-text4">
-                <h3>The way synergy flows between you and your customers, made possible by a partner that truly
-                    understands your business, delivering the outcome you’ve dreamt of.</h3>
+            <div class="item-inner">
+                <img class="item-image" src="../../../assets/images/img1.png">
+                <div class="typo">
+                    <h1 class="title-slide5 animated fadeInUp">RE-IMAGINE</h1>
+                    <h3 class="description-slide5 animated fadeInUp">THE POSSIBILITIES</h3>
+                </div>
             </div>
         </div>
-        <div class="item text-center">
-            <img src="../../../assets/images/img1.png" class="slide-image">
-            <h1 class="format-text5">RE-IMAGINE</h1>
-            <h3 class="format-text6">THE POSSIBILITIES</h3>
-        </div>
+
     </div>
 
     <!-- Left and right controls -->
@@ -46,7 +87,7 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
     </a>
-    <div class="carousel-caption d-none d-md-block">
-        <a (click)="onScrollDown()" class="glyphicon glyphicon-chevron-down"></a>
+    <div class="carousel-caption scroll-down" (click)="onScrollDown()">
+        <i class="fa fa-angle-double-down fa-3x animated infinite fadeInDown slower"></i>
     </div>
 </div>

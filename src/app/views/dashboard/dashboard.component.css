@@ -19,6 +19,7 @@
   width: 100%;
   text-align: justify;
   text-justify: inter-character;
+
 }
 
 .content1, .content2{
@@ -33,14 +34,15 @@ p{
 .content1 h3, .content2 h3{
   color: 	 #b12b46;
   position: relative;
+  font-size: 25px;
 }
 
 .content1 h3::after, .content2 h3::after{
   content: '';
   position: absolute;
   left: 0;
-  bottom: -20px;
-  width: 230px;
+  bottom: -10px;
+  width: 215px;
   height: 2px;
   border-bottom: 1px solid 	 #b12b46;
 }
@@ -49,7 +51,8 @@ p{
   color:  #720764;
   padding-top: 45px;
   padding-bottom: 20px;
-  font-size: x-large;
+  font-size: large;
+  font-weight: bold;
 }
 
 .container {
@@ -97,6 +100,7 @@ p{
 div .content1{
   z-index: -1;
 }
+
 
 
 
