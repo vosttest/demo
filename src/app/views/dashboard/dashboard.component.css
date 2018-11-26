@@ -26,7 +26,7 @@
 }
 
 p {
-    color: #8c8c8c;
+    color: #404040;
 }
 
 .content1 h3, .content2 h3 {
@@ -95,6 +95,7 @@ p {
     float: right;
     opacity: 0.3;
 }
+
 div .content1 {
     z-index: -1;
 }
