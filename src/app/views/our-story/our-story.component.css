@@ -42,7 +42,7 @@ h5 {
 }
 
 #sf_logo{
-  width: 60%;
+  width: 50%;
   height: auto;
   margin: auto;
   display: block;
@@ -51,7 +51,7 @@ h5 {
 
 @media only screen and (min-width: 750px) {
   #sf_logo {
-    width: 25%;
+    width: 15%;
     height: auto;
     margin: auto;
     display: block;

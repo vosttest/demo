@@ -6,101 +6,95 @@
     background-blend-mode: soft-light;
 }
 
-.content2{
-  background: url("../../../assets/shapes/dashboard-shape-2.png");
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-position-x: 5%;
-  background-position-y: -5em;
-  background-blend-mode: darken;
-  background-size: 300px;
+.content2 {
+    background: url("../../../assets/shapes/dashboard-shape-2.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: -5em;
+    background-blend-mode: darken;
+    background-size: 300px;
 }
-.content1 p, .content2 p{
-  width: 100%;
-  text-align: justify;
-  text-justify: inter-character;
-
-}
-
-.content1, .content2{
-  padding: 90px 50px 90px 50px;
-
+.content1 p, .content2 p {
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-character;
 }
 
-p{
-  color: #8c8c8c;
+.content1, .content2 {
+    padding: 90px 50px 90px 50px;
 }
 
-.content1 h3, .content2 h3{
-  color: 	 #b12b46;
-  position: relative;
-  font-size: 25px;
+p {
+    color: #8c8c8c;
 }
 
-.content1 h3::after, .content2 h3::after{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  width: 215px;
-  height: 2px;
-  border-bottom: 1px solid 	 #b12b46;
+.content1 h3, .content2 h3 {
+    color: #b12b46;
+    position: relative;
+    font-size: 25px;
 }
 
-.content1 h5, .content2 h5{
-  color:  #720764;
-  padding-top: 45px;
-  padding-bottom: 20px;
-  font-size: large;
-  font-weight: bold;
+.content1 h3::after, .content2 h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 215px;
+    height: 2px;
+    border-bottom: 1px solid #b12b46;
+}
+
+.content1 h5, .content2 h5 {
+    color:  #720764;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    font-size: large;
+    font-weight: bold;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .bt-more {
-  padding: 3px 35px;
-  border: 1px solid #720764;
-  color:  #720764;
-  text-decoration: none;
-  align-self: center;
-  margin-top:45px;
+    padding: 3px 35px;
+    border: 1px solid #720764;
+    color:  #720764;
+    text-decoration: none;
+    align-self: center;
+    margin-top:45px;
 }
 
-#bg-border{
-  width: 100%;
-  height: 50px;
-  background: url(../../../assets/images/bg.jpg) center;
-  background-size: cover;
-  padding-top: 20px;
+#bg-border {
+    width: 100%;
+    height: 50px;
+    background: url(../../../assets/images/bg.jpg) center;
+    background-size: cover;
+    padding-top: 20px;
 }
 
-#banner2{
-  width: 100%;
-  height: 400px;
-  background: url(../../../assets/images/re-imagine.png) center;
-  background-size: cover;
-  z-index: 1;
+#banner2 {
+    width: 100%;
+    height: 400px;
+    background: url(../../../assets/images/re-imagine.png) center;
+    background-size: cover;
+    z-index: 1;
 }
 
-.shape{
-  /* shape-outside: url(../../../assets/shapes/crimsonworks_icon_white-06.png); */
-  width: 200px;
-  height:450px;
-  /* overflow: auto; */
-  position: fixed;
-  bottom: -10%;
-  right: 100px;
-  z-index: 0;
-  float: right;
-  opacity: 0.3;
+.shape {
+    /* shape-outside: url(../../../assets/shapes/crimsonworks_icon_white-06.png); */
+    width: 200px;
+    height:450px;
+    /* overflow: auto; */
+    position: fixed;
+    bottom: -10%;
+    right: 100px;
+    z-index: 0;
+    float: right;
+    opacity: 0.3;
 }
-div .content1{
-  z-index: -1;
+div .content1 {
+    z-index: -1;
 }
-
-
-
-

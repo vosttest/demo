@@ -36,3 +36,8 @@ body {
 .section-1 {
     padding-top: 70px;
 }
+
+.row:before {
+    display: flex !important;
+  content: " ";
+}
