@@ -127,3 +127,7 @@ a {
     }
 
 }
+
+.carousel-caption {
+    z-index: 0;
+}

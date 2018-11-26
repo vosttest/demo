@@ -40,7 +40,10 @@
 }
 
 #edge-ls .detail  {
-    font-size: 17px;
     margin-bottom: 20px;
     padding-top: 10px;
+}
+
+#edge-ls .detail>p  {
+    font-size: 22px;
 }
