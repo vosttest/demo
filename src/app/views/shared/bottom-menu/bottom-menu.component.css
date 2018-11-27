@@ -1,5 +1,6 @@
 .bg-img {
     background-image: url("../../../../assets/images/bg.jpg");
+    background-repeat: round;
 }
 
 .mr-right0 {
@@ -27,13 +28,13 @@ p {
 
 hr {
     border-top: 1px solid white;
-    width: 22%;
+    width: 33%;
     margin-left: 0px;
 }
 
 .format-row {
     margin-left: auto;
-    padding: 2% 5% 2% 5%;
+    padding: 1.5% 5% 1.5% 5%;
 }
 
 .format-row1 {
@@ -50,6 +51,10 @@ i {
 a {
     text-decoration: none;
     color: white;
+}
+
+.font-size {
+    font-size: 2.5rem;
 }
 
 .pad0 {

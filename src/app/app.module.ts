@@ -13,6 +13,7 @@ import { FitComponent } from './views/shared/fit/fit.component';
 import { DashboardComponent } from './views/dashboard/dashboard.component';
 import { SlidesShowComponent } from './views/slides-show/slides-show.component';
 import { ContactComponent } from './views/contact/contact.component';
+import { OurCommunityComponent } from './views/our-community/our-community.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +27,8 @@ import { ContactComponent } from './views/contact/contact.component';
         FitComponent,
         DashboardComponent,
         SlidesShowComponent,
-        ContactComponent
+        ContactComponent,
+        OurCommunityComponent
     ],
     imports: [
         BrowserModule,

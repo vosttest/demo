@@ -56,6 +56,11 @@ a {
     align-items: center;
 }
 
+.typo .row:before {
+    display: flex !important;
+	content: " ";
+}
+
 .title-slide1 {
     color: #ffffff;
     font-size: 7rem;

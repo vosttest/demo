@@ -1,0 +1,24 @@
+#community {
+    background: url(../../../assets/images/community.png) no-repeat;
+    background-size: cover;
+}
+
+.box .container h2 {
+    color:#720764;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+
+.box {
+    padding-top: 420px;
+    background: linear-gradient(to bottom, transparent 5%,#ffffff);
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+

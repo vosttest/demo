@@ -12,10 +12,10 @@ export class SlidesShowComponent implements OnInit {
 
     ngOnInit() {}
 
-    onScrollDown(): void {
-        $('#expertise-content')[0].scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-        });
+    onScrollDown() {
+        $('html, body').animate({
+            scrollTop: $("#expertise-content").offset().top
+        }, 2000);
     }
+    
 }

@@ -18,4 +18,24 @@ export class DashboardComponent implements OnInit {
         console.log($element);
         $element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
     }
+
+    ngAfterViewInit() {
+        // $('body').on('mousewheel', function(e, delta) {
+        //     if (delta > 0) {
+        //         console.log('len');
+        //     }
+        //     // else if ($("#slider .carousel-item:last").hasClass("active")) {
+        //     //     // e.stopPropagation();
+        //     //     $('#slider').off('mousewheel');
+        //     // }
+        //     else {
+        //         e.preventDefault();
+        //         console.log('xuong');
+        //         $('#expertise-content')[0].scrollIntoView({
+        //             behavior: "smooth",
+        //             block: "start"
+        //         });
+        //     }
+        // });
+    }
 }
