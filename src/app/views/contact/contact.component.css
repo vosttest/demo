@@ -1,7 +1,6 @@
 #contact {
     color: #ffffff;
-    background-size: 96%;
-    
+    background-size: 100%;
 }
 
 .content{
@@ -14,7 +13,7 @@
 }
 
 h3 {
-    margin-top: 50px;
+    margin-top: 3%;
     padding-bottom: 20px;
     font-size: 3.5rem;
     font-weight:  bold;
@@ -35,7 +34,7 @@ input {
 .bt-connect {
     outline: 0;
     font-size: 1.5rem;
-    margin-top: 2.2%;
+    margin-top: 1%;
     font-weight: 700;
     background: transparent;
     padding: 6px 30px;
@@ -44,5 +43,5 @@ input {
 }
 
 .g-recaptcha {
-    margin-top: 2%;
+    margin-top: 1%;
 }

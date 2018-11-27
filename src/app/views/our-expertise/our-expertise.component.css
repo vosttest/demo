@@ -4,6 +4,10 @@
     background-size: 96%;
 }
 
+.container {
+    height: calc(100vh - 70px);
+}
+
 #expertise-ls {
     /* padding: 20px 0 80px 45px; */
     padding: 20px 0 80px 0;
