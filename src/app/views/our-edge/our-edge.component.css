@@ -24,7 +24,7 @@
     outline: 0;
     padding: 0;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 22px;
     text-align: left;
     margin-bottom: 25px;
     cursor: pointer;
@@ -45,5 +45,5 @@
 }
 
 #edge-ls .detail>p  {
-    font-size: 22px;
+    font-size: 17px;
 }
