@@ -6,6 +6,10 @@
     
 }
 
+.container {
+    height: calc(100vh - 70px);
+}
+
 .edge-description {
     font-size: 22px;
     margin-top: 30px;
