@@ -46,7 +46,7 @@ h5 {
   height: auto;
   margin: auto;
   display: block;
-  padding-bottom: 0;
+  padding: 50px 0;
 }
 
 @media only screen and (min-width: 750px) {
@@ -56,10 +56,6 @@ h5 {
     margin: auto;
     display: block;
   }
-}
-
-.container{
-  padding-bottom: 20px;
 }
 
 
