@@ -15,7 +15,7 @@ export class SlidesShowComponent implements OnInit {
     onScrollDown() {
         $('html, body').animate({
             scrollTop: $("#expertise-content").offset().top
-        }, 2000);
+        }, 800);
     }
     
 }
