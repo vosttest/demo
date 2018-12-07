@@ -14,6 +14,8 @@ import { DashboardComponent } from './views/dashboard/dashboard.component';
 import { SlidesShowComponent } from './views/slides-show/slides-show.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { OurCommunityComponent } from './views/our-community/our-community.component';
+import { RecaptchaModule } from 'ng-recaptcha';
+import { ThankYouComponent } from './views/thank-you/thank-you.component';
 
 @NgModule({
     declarations: [
@@ -28,11 +30,13 @@ import { OurCommunityComponent } from './views/our-community/our-community.compo
         DashboardComponent,
         SlidesShowComponent,
         ContactComponent,
-        OurCommunityComponent
+        OurCommunityComponent,
+        ThankYouComponent
     ],
     imports: [
         BrowserModule,
-        AppRoutingModule
+        AppRoutingModule,
+        RecaptchaModule
     ],
     providers: [],
     bootstrap: [AppComponent]

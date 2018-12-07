@@ -8,6 +8,7 @@ import { DashboardComponent } from './views/dashboard/dashboard.component';
 import { SlidesShowComponent } from './views/slides-show/slides-show.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { OurCommunityComponent } from './views/our-community/our-community.component';
+import { ThankYouComponent } from './views/thank-you/thank-you.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/index', pathMatch: 'full'},
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'index', component: DashboardComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'our-community', component: OurCommunityComponent}
+  { path: 'thank-you', component: ThankYouComponent}
 
 ]
 

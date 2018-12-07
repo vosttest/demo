@@ -1,54 +1,83 @@
-#contact {
-    color: #ffffff;
-    background-size: 100%;
-}
-
 .content{
-    padding: 80px 10px 38px 10px;
+    padding: 110px 0 80px;
 }
 
-.content p{
-    text-align: justify;
-    color: #404040;
+.contact-form {
+    width: 700px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact-form {
+        width: 100%;
+    }
+
 }
 
 h3 {
     margin-top: 3%;
-    padding-bottom: 20px;
-    font-size: 3.5rem;
-    font-weight:  bold;
+    padding-bottom: 40px;
+    font-size: 3.3rem;
+    font-weight: bold;
     background: -webkit-linear-gradient(#b52f48, #6a006e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .form-control {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #e1e1e1;
+    padding-left: 15px;
+    transition: all ease-out .3s;
+}
+
+.form-control:focus {
+    border: 1px solid #90097e;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 input {
     margin-bottom: 4%;
-    height: calc(3.5rem + 2px);
+    height: 40px;
+    box-shadow: 0;
+}
+
+textarea {
+    padding-top: 10px;
+    resize: none;
 }
 
 .bt-connect {
+    height: 40px;
     outline: 0 !important;
-    border: 2px solid #b22b46;
+    border:  1px solid #720764;
     font-size: 1.5rem;
-    margin-top: 15px;
+    margin-top: 20px;
     font-weight: 700;
     background: transparent;
+    color: #720764;
     padding: 6px 30px;
     cursor: pointer;
-    color: #b22b46;
     transition: all ease-out .3s;
+    border-radius: 0;
 }
 
 .bt-connect:hover {
-    background: #b22b46;
+    background: #720764;
     color: #ffffff;
 }
 
-.g-recaptcha {
+.bt-connect:disabled {
+    border: 1px solid #f1f1f1;
+    background: #f1f1f1;
+    color: #999999;
+    cursor: not-allowed;
+}
+
+.contact-captcha {
     margin-top: 15px;
 }
