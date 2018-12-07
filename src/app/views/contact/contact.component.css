@@ -32,16 +32,23 @@ input {
 }
 
 .bt-connect {
-    outline: 0;
+    outline: 0 !important;
+    border: 2px solid #b22b46;
     font-size: 1.5rem;
-    margin-top: 1%;
+    margin-top: 15px;
     font-weight: 700;
     background: transparent;
     padding: 6px 30px;
     cursor: pointer;
     color: #b22b46;
+    transition: all ease-out .3s;
+}
+
+.bt-connect:hover {
+    background: #b22b46;
+    color: #ffffff;
 }
 
 .g-recaptcha {
-    margin-top: 1%;
+    margin-top: 15px;
 }

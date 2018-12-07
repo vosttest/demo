@@ -1,22 +1,75 @@
 <div class="content">
     <div class="container">
-        <!-- <h3>OUR STORY</h3> -->
         <h3>Let's journey together to re-imagine the possibilities</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <input class="form-control" placeholder="First name" />
-                <input class="form-control" placeholder="Email" />
+
+        <form id="contact-form" class="contact-form form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+            method="POST" novalidate="novalidate">
+            <input type="hidden" name="oid" value="00D90000000vowU">
+            <input type="hidden" name="retURL" value="http://www.crimsonworks.com/thank-you.html">
+
+            <div class="row">
+                <div class="contact-form-inner col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                            <label class="sr-only" for="00N6F00000ESsv0">Reason for contact</label>
+                            <select class="form-control hidden" id="00N6F00000ESsv0" name="00N6F00000ESsv0" required=""
+                                placeholder="Reason for contact" onchange="changeReason()" aria-required="true">
+                                <!-- <option value="">Reason for contact</option> -->
+                                <!-- <option value="General Inquiry">General Inquiry</option> -->
+                                <!-- <option value="Job Opportunities">Job Opportunities</option> -->
+                                <option value="Sales" selected="">Sales</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                            <label class="sr-only" for="first_name">First name</label>
+                            <input class="form-control valid" id="first_name" maxlength="40" name="first_name" type="text"
+                                required="" placeholder="First name" aria-required="true" aria-invalid="false">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                            <label class="sr-only" for="last_name">Last name</label>
+                            <input class="form-control valid" id="last_name" maxlength="80" name="last_name" type="text"
+                                required="" placeholder="Last name" aria-required="true" aria-invalid="false">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                            <label class="sr-only" for="email">Email</label>
+                            <input class="form-control" id="email" maxlength="80" name="email" type="email" required=""
+                                placeholder="Email" aria-required="true">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                            <label class="sr-only" for="phone">Phone</label>
+                            <input class="form-control valid" id="phone" maxlength="80" name="phone" type="tel" pattern="\d{8}"
+                                required="" placeholder="Phone" aria-required="true" aria-invalid="false">
+                        </div>
+                        <div id="companyField" class="col-md-12 col-sm-12 col-xs-12 form-group">
+                            <label class="sr-only" for="company">Company</label>
+                            <input class="form-control" id="company" maxlength="40" name="company" type="text" required=""
+                                placeholder="Company" aria-required="true">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                            <label class="sr-only" for="00N6F00000ESsv5">Your message</label>
+                            <textarea class="form-control" id="00N6F00000ESsv5" name="00N6F00000ESsv5" placeholder="Enter your comment"
+                                rows="12" required="" aria-required="true"></textarea>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                            <div id="contact-captcha">
+                                <div style="width: 304px; height: 78px;">
+                                    <div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeAZh8TAAAAANvdJt1idUx0bSgRmOY2MGMXzZoG&amp;co=aHR0cDovL3d3dy5jcmltc29ud29ya3MuY29tOjgw&amp;hl=vi&amp;v=v1543818755456&amp;size=normal&amp;cb=ebaab62d4q59"
+                                            width="304" height="78" role="presentation" name="a-l3nqsc6g9lyz"
+                                            frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                                            __idm_frm__="304"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                        class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                </div>
+                            </div>
+                            <!-- <div class="g-recaptcha" data-sitekey="6LceS30UAAAAAAhL7hOrLfcizDDSaUqSBGcgvD_Z"></div> -->
+                            <!-- 6LeAZh8TAAAAANvdJt1idUx0bSgRmOY2MGMXzZoG -->
+                            <button class="bt-connect" routerLink="/contact">Connect with us</button>
+                        </div>
+                    </div>
+                    <!--//row-->
+                </div>
             </div>
-            <div class="col-md-4">
-                <input class="form-control" placeholder="Last name" />
-                <input class="form-control" placeholder="Phone" />
-            </div>
-            <div class="col-md-8">
-                <input class="form-control" placeholder="Company" />
-                <textarea  class="form-control" rows="10" placeholder="Enter your comment"></textarea>
-            </div>
-        </div>
-        <div class="g-recaptcha" data-sitekey="6LceS30UAAAAAAhL7hOrLfcizDDSaUqSBGcgvD_Z"></div>
-        <button class="bt-connect" routerLink="/contact">Connect with us</button>
+            <!--//row-->
+            <div id="form-messages"></div>
+        </form>
     </div>
 </div>
