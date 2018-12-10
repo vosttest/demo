@@ -13,7 +13,7 @@
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     background: -webkit-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.7));
     -webkit-background-clip: text;
@@ -26,14 +26,13 @@ p {
 }
 
 .bt-connect {
-    outline: 0;
-    font-size: 20px;
+    outline: 0;    
+    font-size: medium;
     margin-top: 45px;
-    font-weight: bold;
     color: #ffffff;
     border: 1px solid #ffffff;
     background: transparent;
-    padding: 6px 30px;
+    padding: 3px 25px;
     text-transform: uppercase;
     cursor: pointer;
     transition: all ease-out .3s;

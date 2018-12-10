@@ -41,17 +41,21 @@ h5 {
     font-weight:  bold;
 }
 
-#sf_logo{
-  width: 50%;
-  height: auto;
-  margin: auto;
-  display: block;
-  padding: 50px 0;
+.sf-logo-outer::after {
+    clear: both;
 }
 
-@media only screen and (min-width: 750px) {
-  #sf_logo {
-    width: 15%;
+#sf-logo{
+    float: right;
+    width: 200px;
+    height: auto;
+    padding: 50px 0;
+}
+
+@media only screen and (max-width: 750px) {
+  #sf-logo {
+    float: none;
+    width: 50%;
     height: auto;
     margin: auto;
     display: block;
