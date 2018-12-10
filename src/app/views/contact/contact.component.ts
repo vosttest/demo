@@ -28,8 +28,8 @@ export class ContactComponent implements OnInit {
         }
 
         var url = rurl.replace("contact", "thank-you");
-        console.log(rurl);
-        console.log(url);
+        //console.log(rurl);
+        //console.log(url);
 
         this.vm = {
             "action": "https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8",
