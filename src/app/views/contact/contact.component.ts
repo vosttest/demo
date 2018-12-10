@@ -16,21 +16,25 @@ export class ContactComponent implements OnInit {
 
     ngOnInit() {
         var rurl = window.location.href;
-        var retURL = "";
 
         if (rurl.indexOf("test.crimsonworks.com") != -1) {
             this.siteKey = "6LeAZh8TAAAAANvdJt1idUx0bSgRmOY2MGMXzZoG";
-            retURL = "https://test.crimsonworks.com/thank-you";
+        }
+        else if (rurl.indexOf("cws-web.herokuapp.com") != -1) {
+            this.siteKey = "6LdDXX8UAAAAAAms5crMGgDVA7OVWZNlp1Fs4bVV";
         }
         else {
             this.siteKey = "6LdDXX8UAAAAAAms5crMGgDVA7OVWZNlp1Fs4bVV";
-            retURL = "https://cws-web.herokuapp.com/thank-you";
         }
+
+        var url = rurl.replace("contact", "thank-you");
+        console.log(rurl);
+        console.log(url);
 
         this.vm = {
             "action": "https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8",
             "oid": "00D90000000vowU",
-            "retURL": retURL
+            "retURL": url
         };
 
         setTimeout(function () {
