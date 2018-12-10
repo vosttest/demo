@@ -16,7 +16,7 @@
 
 h3 {
     margin-top: 3%;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     font-size: 3.3rem;
     font-weight: bold;
     background: -webkit-linear-gradient(#b52f48, #6a006e);
@@ -35,7 +35,7 @@ h3 {
 }
 
 .form-control:focus {
-    border: 1px solid #90097e;
+    border: 1px solid #b52f48;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -54,20 +54,21 @@ textarea {
 .bt-connect {
     height: 40px;
     outline: 0 !important;
-    border:  1px solid #720764;
+    border:  1px solid #b52f48;
     font-size: 1.5rem;
     margin-top: 20px;
     font-weight: 700;
     background: transparent;
-    color: #720764;
+    color: #b52f48;
     padding: 6px 30px;
     cursor: pointer;
     transition: all ease-out .3s;
     border-radius: 0;
+    text-transform: uppercase;
 }
 
 .bt-connect:hover {
-    background: #720764;
+    background: #b52f48;
     color: #ffffff;
 }
 
