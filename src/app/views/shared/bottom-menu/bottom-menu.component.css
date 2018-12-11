@@ -3,6 +3,14 @@
     background-repeat: round;
 }
 
+@media only screen and (max-width: 768px) {
+
+    .copyright {
+        font-size: 14px;
+    }
+
+}
+
 .mr-right0 {
     margin-right: 0px !important;
     display: flex;
