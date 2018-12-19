@@ -17,7 +17,7 @@ export class ContactComponent implements OnInit {
     ngOnInit() {
         var rurl = window.location.href;
 
-        if (rurl.indexOf("test.crimsonworks.com") != -1) {
+        if (rurl.indexOf("crimsonworks.com") != -1) {
             this.siteKey = "6LeAZh8TAAAAANvdJt1idUx0bSgRmOY2MGMXzZoG";
         }
         else if (rurl.indexOf("cws-web.herokuapp.com") != -1) {
