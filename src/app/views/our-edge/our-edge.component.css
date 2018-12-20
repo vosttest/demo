@@ -1,13 +1,8 @@
 #our-edge {
     color: #ffffff;
-    /* background: #750863 url(../../../assets/images/bg-edge.png) no-repeat fixed; */
     background: #660169 url(../../../assets/images/bg-edge.png) no-repeat fixed;
     background-size: 96%;
     
-}
-
-.container {
-    height: calc(100vh - 70px);
 }
 
 .edge-description {
