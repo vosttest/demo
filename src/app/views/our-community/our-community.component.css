@@ -1,19 +1,19 @@
 #community {
-    background: url(../../../assets/images/community.png) no-repeat;
+    background: url(../../../assets/images/community.jpg) no-repeat;
     background-size: cover;
 }
 
 .box .container h2 {
-    color:#720764;
+    color:hsl(308, 88%, 24%);
     font-weight: bold;
     padding-bottom: 15px;
     font-size: 35px;
 }
 
 .box {
-    padding-top: 420px;
-    background: linear-gradient(to bottom, transparent 5%,#ffffff);
-    padding-bottom: 50px;
+    padding-top: 400px;
+    background: linear-gradient(to bottom, transparent,#ffffff 99%);
+    padding-bottom: 150px;
     padding-left: 50px;
 }
 

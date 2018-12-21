@@ -1,5 +1,5 @@
 .bg-img {
-    background-image: url("../../../../assets/images/bg.jpg");
+    background: linear-gradient(-45deg, #6a006e 10%, #b52f48);
     background-repeat: round;
 }
 

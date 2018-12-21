@@ -1,8 +1,25 @@
 #our-edge {
     color: #ffffff;
-    background: #660169 url(../../../assets/images/bg-edge.png) no-repeat fixed;
-    background-size: 96%;
-    
+    background: linear-gradient(-45deg, #6a006e,#6a006e, #b52f48),
+      url("../../../assets/shapes/edge-shape-2.png") 0 0 no-repeat;
+    background-blend-mode: darken;
+    background-position: right 13% top;
+    background-size: auto, 38%;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+/* Ipad */
+@media only screen and (max-width: 768px) {
+    #our-edge { 
+    }
+}
+
+.card {
+    background: transparent;
+    border: 0;
 }
 
 .edge-description {
@@ -13,6 +30,7 @@
 
 #edge-ls {
     padding: 40px 0 100px;
+    transition: all .5s;
 }
 
 #edge-ls .title {

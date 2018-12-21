@@ -1,11 +1,14 @@
 #our-expertise {
-    color: #ffffff;
-    background: #660169 url(../../../assets/images/bg-expertise.png) no-repeat fixed;
-    background-size: 96%;
+    color: #ffffff;    
+    background: linear-gradient(-45deg, #6a006e,#6a006e, #b52f48),
+      url("../../../assets/shapes/edge-shape-2.png") 0 0 no-repeat;
+    background-blend-mode: darken;
+    background-position: left 13% top;
+    background-size: auto, 38%;
 }
 
 .container {
-    height: calc(100vh - 70px);
+    min-height: 100vh;
 }
 
 #expertise-ls {
