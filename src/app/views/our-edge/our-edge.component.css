@@ -64,3 +64,23 @@
 #edge-ls .detail>p  {
     font-size: 17px;
 }
+
+.detail-child {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.detail-child li {
+    background: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+}
+
+.detail-child li:not(:first-child) {
+    margin-left: 10px;
+}
