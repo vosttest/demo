@@ -196,11 +196,11 @@ li a {
 
 .outlook-logo {
     position: fixed;
-    top: 100px;
-    right: 30px;
+    top: 90px;
+    right: 55px;
     width: 200px;
     z-index: 1000000;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+    box-shadow: 2px 5px 30px rgba(0, 0, 0, .1);
 }
 
 .mr-left {
