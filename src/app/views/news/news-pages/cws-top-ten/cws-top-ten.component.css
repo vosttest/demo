@@ -1,0 +1,50 @@
+#news {
+    font-family: Georgia;
+}
+
+.indent {
+    text-indent: 25px;
+}
+
+.drop-cap {
+    color: #000;
+    float: left;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 60px;
+    padding: 3px 6px 5px;
+    background: #D71920;
+    margin-right: 8px;
+    position: relative;
+}
+
+.drop-cap::before {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 3px;
+    height: 68px;
+    content: '';
+    border-left: 5px solid #D71920;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #555;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+img {
+    max-width: 100%;
+}

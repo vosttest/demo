@@ -16,6 +16,10 @@ import { ContactComponent } from './views/contact/contact.component';
 import { OurCommunityComponent } from './views/our-community/our-community.component';
 import { RecaptchaModule } from 'ng-recaptcha';
 import { ThankYouComponent } from './views/thank-you/thank-you.component';
+import { NewsComponent } from './views/news/news.component';
+import { NewsListComponent } from './views/news/news-list/news-list.component';
+import { NewsContentComponent } from './views/news/news-content/news-content.component';
+import { CwsTopTenComponent } from './views/news/news-pages/cws-top-ten/cws-top-ten.component';
 
 @NgModule({
     declarations: [
@@ -31,7 +35,11 @@ import { ThankYouComponent } from './views/thank-you/thank-you.component';
         SlidesShowComponent,
         ContactComponent,
         OurCommunityComponent,
-        ThankYouComponent
+        ThankYouComponent,
+        NewsComponent,
+        NewsListComponent,
+        NewsContentComponent,
+        CwsTopTenComponent
     ],
     imports: [
         BrowserModule,

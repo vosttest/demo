@@ -16,6 +16,13 @@ a {
     text-decoration: none;
 }
 
+.outlook-logo {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 250px;
+}
+
 #myCarousel {
     padding-top: 70px;
 }
