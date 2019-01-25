@@ -2,13 +2,13 @@
     font-family: Georgia;
 }
 
-.line-header {
+.line {
     position: relative;
     border-top: 2px solid #000;
     margin: 20px 0;
 }
 
-.line-header::before {
+.line::before {
     position: absolute;
     top: -6px;
     left: 0;
