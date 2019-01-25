@@ -2,6 +2,32 @@
     font-family: Georgia;
 }
 
+.line-header {
+    position: relative;
+    border-top: 2px solid #000;
+    margin: 20px 0;
+}
+
+.line-header::before {
+    position: absolute;
+    top: -6px;
+    left: 0;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #D71920;
+}
+
+.logo-top-10 {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    width: 200px;
+    height: 80px;
+    background: url(../../../../../assets/images/apac-cio-outlook-logo.png) no-repeat;
+    background-size: 200px;
+}
+
 .indent {
     text-indent: 25px;
 }
@@ -9,7 +35,7 @@
 .drop-cap {
     color: #000;
     float: left;
-    font-family: fantasy;
+    font-family: Impact, fantasy;
     font-weight: bold;
     font-size: 75px;
     line-height: 60px;
