@@ -1,7 +1,6 @@
 #news {
     padding-top: 70px;
     font-weight: 300;    
-    box-sizing: border-box;
     min-height: calc(100vh - 80px);
 }
 
