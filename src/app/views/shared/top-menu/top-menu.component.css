@@ -195,16 +195,31 @@ li a {
 }
 
 .outlook-logo {
-    width: 200px;
-    position: fixed;
-    top: 90px;
-    right: 55px;
-    z-index: 1000000;
+    position: fixed;    
+    z-index: 50;
     box-shadow: 2px 5px 30px rgba(0, 0, 0, .1);
 }
 
-.outlook-logo img {
-    width: 200px;
+@media only screen and (min-width: 769px) {
+    .outlook-logo {
+        width: 200px;
+        top: 90px;
+        right: 55px;
+    }
+    .outlook-logo img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .outlook-logo {
+        width: 120px;
+        bottom: 20px;
+        left: 20px;
+    }
+    .outlook-logo img {
+        width: 120px;
+    }
 }
 
 .mr-left {

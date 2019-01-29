@@ -1,9 +1,4 @@
 #news-list {
-    position: sticky;
-    top: 70px;
-    height: calc(100vh - 70px);
-    background: #f2f2f2;
-    padding-top: 20px;
     overflow: hidden;
 }
 
@@ -18,7 +13,6 @@ a:hover {
 
 h3 {
     font-weight: bold;
-    margin-left: 25px;
 }
 
 ul {
@@ -42,4 +36,40 @@ ul li {
 ul li:hover {
     cursor: pointer;
     background: rgba(100,100,100,.1);
+}
+
+@media only screen and (min-width: 769px) {
+
+    #news-list {
+        position: sticky;
+        top: 70px;
+        height: calc(100vh - 70px);
+        padding-top: 20px;
+        background: #f2f2f2;
+        overflow: hidden;
+    }
+
+    h3 {
+        margin-left: 25px;
+    }
+   
+}
+
+@media only screen and (max-width: 768px) {
+    #news-list  {
+        background: #ffffff;
+        width: calc(100% - 20px);
+        position: fixed;
+        top: 80px;
+        min-height: 50px;
+        left: 10px;
+        z-index: 50;
+        border-radius: 5px;
+        box-shadow: 2px 5px 30px rgba(0, 0, 0, .1);
+    }
+
+    h3 {
+        padding-top: 10px;
+        margin-left: 10px;
+    }
 }

@@ -1,3 +1,9 @@
 #news-content {
     padding: 40px;
 }
+
+@media only screen and (max-width: 768px) {
+    #news-content {
+        margin-top: 70px;
+    }
+}
