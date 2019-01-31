@@ -9,6 +9,11 @@
         font-size: 14px;
     }
 
+    .scale:hover {
+        cursor: pointer;
+        transform: scale(1) !important;
+    }
+
 }
 
 .mr-right0 {
@@ -31,7 +36,7 @@ p {
 
 .scale:hover {
     cursor: pointer;
-    transform: scale(1.25);
+    transform: scale(1.2);
 }
 
 hr {
