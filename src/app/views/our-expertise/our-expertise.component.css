@@ -7,6 +7,12 @@
     background-size: auto, 38%;
 }
 
+.expertise-description {
+    font-size: 22px;
+    margin-top: 30px;
+    line-height: 35px;
+}
+
 .container {
     min-height: 100vh;
 }
@@ -14,7 +20,7 @@
 #expertise-ls {
     /* padding: 20px 0 80px 45px; */
     padding: 20px 0 80px 0;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 #expertise-ls .title {
