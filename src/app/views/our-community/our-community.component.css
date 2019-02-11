@@ -7,13 +7,13 @@
     color:hsl(308, 88%, 24%);
     font-weight: bold;
     padding-bottom: 15px;
-    font-size: 35px;
+    /* font-size: 35px; */
 }
 
 .box {
-    padding-top: 400px;
-    background: linear-gradient(to bottom, transparent,#ffffff 55%);
-    padding-bottom: 150px;
+    padding-top: 250px;
+    background: linear-gradient(to bottom, transparent, rgba(255,255,255,.9) 50%);
+    padding-bottom: 100px;
     padding-left: 50px;
 }
 
