@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-our-story',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OurStoryComponent implements OnInit {
 
-  constructor() { }
+  public constructor(private titleService: Title ) { }
 
   ngOnInit() {
   }

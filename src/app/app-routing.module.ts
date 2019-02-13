@@ -13,22 +13,20 @@ import { NewsComponent } from './views/news/news.component';
 import { CwsTopTenComponent } from './views/news/news-pages/cws-top-ten/cws-top-ten.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/index', pathMatch: 'full'},
-  { path: 'our-edge', component: OurEdgeComponent},
-  { path: 'our-story', component: OurStoryComponent},
-  { path: 'our-approach', component: OurApproachComponent},
-  { path: 'our-expertise', component: OurExpertiseComponent},
-  { path: 'dashboard', component: DashboardComponent},
-  { path: 'slides-show', component: SlidesShowComponent},
-  { path: 'dashboard', component: DashboardComponent},
-  { path: 'index', component: DashboardComponent},
-  { path: 'contact', component: ContactComponent},
-  { path: 'our-community', component: OurCommunityComponent},
-  { path: 'thank-you', component: ThankYouComponent},
-  { path: 'news', component: NewsComponent,
+  { path: '', redirectTo: '/index', pathMatch: 'full' },
+  { path: 'our-edge', component: OurEdgeComponent, data: { title: 'Our Edge', meta: 'crimsonworks our edge' } },
+  { path: 'our-story', component: OurStoryComponent, data: { title: 'Our Story', meta: 'crimsonworks our story' } },
+  { path: 'our-approach', component: OurApproachComponent, data: { title: 'Our Approach', meta: 'crimsonworks our approach' } },
+  { path: 'our-expertise', component: OurExpertiseComponent, data: { title: 'Our Expertise', meta: 'crimsonworks our expertise' } },
+  { path: 'index', component: DashboardComponent, data: { title: 'Home', meta: 'crimsonworks home' } },
+  { path: 'contact', component: ContactComponent, data: { title: 'Contact', meta: 'crimsonworks contact' } },
+  { path: 'our-community', component: OurCommunityComponent, data: { title: 'Our Community', meta: 'crimsonworks our community' } },
+  { path: 'thank-you', component: ThankYouComponent, data: { title: 'Thank you', meta: 'crimsonworks thank you' } },
+  {
+    path: 'news', component: NewsComponent, data: { title: 'News', meta: 'crimsonworks news' },
     children: [
       { path: '', redirectTo: 'crimson-works-top-10-saleforce', pathMatch: 'full' },
-      { path: 'crimson-works-top-10-saleforce', component: CwsTopTenComponent }
+      { path: 'crimson-works-top-10-saleforce', component: CwsTopTenComponent, data: { title: 'Re-imagine Digitalization for Long-term Business Success', meta: 'crimsonworks news' } }
     ]
   }
 
@@ -39,9 +37,9 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(routes)
   ],
-  exports: [ RouterModule ]
+  exports: [RouterModule]
 })
 
 export class AppRoutingModule {
 
- }
+}
