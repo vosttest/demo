@@ -30,14 +30,14 @@ app.engine('html', ngExpressEngine({
 }));
 
 app.set('view engine', 'html');
-app.set('views', './dist/browser');
+app.set('views', './dist/cws');
 
 app.get('/redirect/**', (req, res) => {
     const location = req.url.substring(10);
     res.redirect(301, location);
 });
 
-app.get('*.*', express.static('./dist/browser', {
+app.get('*.*', express.static('./dist/cws', {
     maxAge: '1y'
 }));
 
