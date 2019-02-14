@@ -1,0 +1,8 @@
+{
+    "universal": {
+        "project": "cws",
+        "skipInstall": false,
+        "directory": ".",
+        "http": true
+    }
+}

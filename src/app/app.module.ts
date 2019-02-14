@@ -1,4 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { NgtUniversalModule } from '@ng-toolkit/universal';
+import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+import { TransferHttpCacheModule } from '@nguniversal/common';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -42,12 +45,16 @@ import { CwsTopTenComponent } from './views/news/news-pages/cws-top-ten/cws-top-
         CwsTopTenComponent
     ],
     imports: [
-        BrowserModule,
+        CommonModule,
+        NgtUniversalModule,
+
+        TransferHttpCacheModule,
+        HttpClientModule,
+
         AppRoutingModule,
         RecaptchaModule
     ],
     providers: [],
-    bootstrap: [AppComponent]
 })
 
 export class AppModule { }

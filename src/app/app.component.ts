@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { WINDOW } from '@ng-toolkit/universal';
+import { Component, OnInit, Inject } from '@angular/core';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { Title, Meta } from '@angular/platform-browser';
 
@@ -10,7 +11,7 @@ import { Title, Meta } from '@angular/platform-browser';
 
 export class AppComponent implements OnInit {
 
-    constructor(
+    constructor(@Inject(WINDOW) private window: Window,
         private router: Router,
         private titleService: Title,
         private metaService: Meta,
@@ -31,7 +32,7 @@ export class AppComponent implements OnInit {
             if (!(evt instanceof NavigationEnd)) {
                 return;
             }
-            window.scrollTo(0, 0)
+            this.window.scrollTo(0, 0)
         });
     }
 
