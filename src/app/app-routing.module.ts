@@ -5,7 +5,6 @@ import { OurStoryComponent } from './views/our-story/our-story.component';
 import { OurApproachComponent } from './views/our-approach/our-approach.component';
 import { OurExpertiseComponent } from './views/our-expertise/our-expertise.component';
 import { DashboardComponent } from './views/dashboard/dashboard.component';
-import { SlidesShowComponent } from './views/slides-show/slides-show.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { OurCommunityComponent } from './views/our-community/our-community.component';
 import { ThankYouComponent } from './views/thank-you/thank-you.component';
