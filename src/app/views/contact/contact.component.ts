@@ -1,5 +1,4 @@
-import { WINDOW } from '@ng-toolkit/universal';
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 declare var grecaptcha: any;
 
 @Component({
@@ -13,10 +12,10 @@ export class ContactComponent implements OnInit {
     public siteKey: string = '';
     public canSubmit: boolean = false;
 
-    constructor(@Inject(WINDOW) private window: Window, ) { }
+    constructor() { }
 
     ngOnInit() {
-        var rurl = this.window.location.href;
+        var rurl = window.location.href;
 
         if (rurl.indexOf("crimsonworks.com") != -1) {
             this.siteKey = "6LeAZh8TAAAAANvdJt1idUx0bSgRmOY2MGMXzZoG";
@@ -59,4 +58,5 @@ export class ContactComponent implements OnInit {
         this.captchaError = false;
         this.canSubmit = true;
     }
+
 }
