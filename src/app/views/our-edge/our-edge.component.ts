@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { SeoService } from '../../seo.service';
 declare var $: any;
 
 @Component({
@@ -9,11 +8,10 @@ declare var $: any;
 })
 export class OurEdgeComponent implements OnInit {
 
-  constructor(
-    private seo: SeoService,
-  ) { }
+  constructor() { }
 
   ngOnInit() {
+
   }
 
   ngAfterViewInit() {

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
-import { SeoService } from './seo.service';
+import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-root',
@@ -11,17 +11,17 @@ import { SeoService } from './seo.service';
 export class AppComponent implements OnInit {
 
     constructor(
-        private seo: SeoService,
-        private router: Router
+        private router: Router,
+        private titleService: Title,
+        private metaService: Meta,
+        private activatedRoute: ActivatedRoute
     ) {
         router.events.subscribe(event => {
             if (event instanceof NavigationEnd) {
                 var title = this.getTitle(router.routerState, router.routerState.root).join('-');
                 var meta = this.getMeta(router.routerState, router.routerState.root).join('-');
-                this.seo.generateTags({
-                    title: title,
-                    description: meta
-                })
+                titleService.setTitle(title + ' | CrimsonWorks');
+                metaService.updateTag({ name: 'description', content: meta });
             }
         });
     }
