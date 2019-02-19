@@ -1,0 +1,163 @@
+.calendar-container {
+    width: 100%;
+}
+
+.calendar-header {
+    background: #E1F2FA;
+}
+
+.calendar-month {
+    color: #222;
+}
+
+.calendar-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #E1F2FA;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.calendar-container tr:first-child .day {
+    border: 0;
+}
+
+.calendar-container td {
+    text-align: center;
+}
+
+.ztooltip {
+    text-align: left;
+}
+
+.ztooltip i {
+    margin-right: 5px;
+}
+
+.week {
+    border: 0;
+    padding: 5px 30px !important;
+    color: #444444;
+    font-size: 13px;
+    font-weight: 450;
+    text-transform: uppercase;
+}
+
+.day {
+    padding: 20px 30px;
+    border: 1px solid #f2f2f2;
+    color: #222;
+}
+
+.ignore-day {
+    color: #ddd;
+}
+
+.over-time-line {
+    box-shadow: 0px 0px 0px 2px #22c345 inset;
+}
+
+.approval-leave {
+    background: #a8d9f0;
+    border: 1px solid #a8d9f0;
+}
+
+.unaccepted-leave {
+    background: #ff9999;
+    border: 1px solid #ff9999;
+}
+
+.over-time {
+    background: #22c345;
+    border: 1px solid #22c345;
+}
+
+.working-half {
+    background: #ddd;
+    border: 1px solid #ddd;
+}
+
+.center-align {
+    margin: 0 auto;
+}
+
+.tick-annotate {
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-weight: 650;
+}
+
+/* year */
+
+.calendar-year .day {
+    background: transparent;
+    border: none;
+    padding: 6px 0 !important;
+    box-shadow: none;
+}
+
+.calendar-year .tick div {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    cursor: pointer;
+    font-weight: 650;
+}
+
+.calendar-year .working-half div {
+    background: #ddd;
+}
+
+.calendar-year .over-time-line div {
+    box-shadow: 0px 0px 0px 2.5px #22c345;
+}
+
+.calendar-year .approval-leave div {
+    background: #a8d9f0;
+}
+
+.calendar-year .unaccepted-leave div {
+    background: #ff9999;
+}
+
+.calendar-year .over-time div {
+    background: #22c345;
+}
+
+.calendar-year td {
+    width: 14.22222222%;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .week {
+        padding: 15px 0 !important;
+    }
+    .day {
+        border: none;
+        padding: 10px 0 !important;
+    }
+    td {
+        width: 14.22222222%;
+        overflow: hidden;
+        display: inline-block;
+        white-space: nowrap;
+        padding: 0 !important;
+    }
+}

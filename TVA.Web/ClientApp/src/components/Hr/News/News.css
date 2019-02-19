@@ -1,0 +1,47 @@
+.news-img {
+    width: 250px;
+    height: auto;
+    padding:10px;
+}
+
+#news-ctg {
+    margin-top:10px;
+    display: inline-block;
+    background-color: red;
+    color:white;
+}
+
+span {
+    opacity: 0.8;
+}
+
+.icon-user {
+    max-width: 20px;
+    height: 10px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.date-time {
+    font-size: 12px;
+    opacity: 0.5;
+    padding-top: 10px;
+    text-align: right;
+    margin-right:80px;
+}
+
+.news-title {
+    color: black;
+    font-size: 25px;
+}
+
+.icon-del, .icon-no {
+    max-width: 30px;
+    height: auto;
+}
+
+.icon-del {float:right;}
+.icon-no { margin-top:3px;}
+
+
+

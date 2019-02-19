@@ -1,0 +1,82 @@
+.card {
+    border: 0 !important;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, .1);
+    /* border-radius: 10px; */
+    /* overflow: hidden; */
+}
+
+.card-footer {
+    background: none;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+}
+
+.card-header {
+    background: #f7f7f7;
+    border: 0;
+}
+
+.card-logo {
+    float: left;
+    color: #4695DC;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 3px 20px 5px 0;
+    position: relative;
+}
+
+.card-field {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #888;
+    margin-bottom: 3px;
+}
+
+.card-header-actions {
+    display: block;
+    float: right;
+    margin-right: -0.25rem;
+}
+
+.form-control-static {  
+    font-weight: 500; 
+    font-style: italic; 
+}
+
+.btn-primary {
+    margin-right: 10px;
+}
+
+.trLeaveApply td{
+    text-align: left;
+}
+
+.datetimeStr 
+{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.pReason{
+    font-weight: normal;
+    font-size: 0.9em;
+    font-style: italic;
+    color: #4695DC;
+}
+
+.spanApplyType {
+    font-weight: 500; 
+    font-size: 0.9em;
+    font-style: italic;
+    color: rgb(7, 68, 39);
+}
+
+.pErrorText{
+    font-weight: normal; 
+    font-size: 0.93em;
+    font-style: italic;
+    color: red;
+    text-align: right;
+}

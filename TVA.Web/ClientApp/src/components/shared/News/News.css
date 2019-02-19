@@ -1,0 +1,15 @@
+.news {
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+.date-time {
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.responsive {
+    padding-top: 5px;
+    width: 120%;
+    height: auto;
+}

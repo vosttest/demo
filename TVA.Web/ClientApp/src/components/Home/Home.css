@@ -1,0 +1,29 @@
+.card {
+    margin: 0 15px;
+    border-radius: 10px;
+}
+
+.card-header:first-child {
+    border-radius: 10px;
+}
+
+.card-title {
+    padding-bottom: 15px;
+}
+
+.my-pending .card {
+    margin-right: 0; 
+}
+
+.news-info {
+    margin: 0 !important;
+}
+
+.news-info .card {
+    margin-left: 0; 
+    margin-right: 0;
+} 
+
+.announcement .card {
+    margin-left: 0;
+} 

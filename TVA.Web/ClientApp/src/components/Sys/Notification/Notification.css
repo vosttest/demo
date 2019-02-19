@@ -1,0 +1,25 @@
+#notification {
+    width: 60%;
+    margin: 40px auto 0;
+}
+
+#notification ul {
+    list-style: none;
+    padding: 0;
+}
+
+#notification ul li:not(:first-child) {
+    /* border-top: 1px solid #f1f1f1; */
+    margin-top: 5px;
+}
+
+#notification ul li {
+    padding: 12px 12px;
+    background: #f5f5f5;
+    border-radius: 3px;
+}
+
+.unread-notification {
+    color: #E1A951;
+    background: #FCF5E3;
+}
